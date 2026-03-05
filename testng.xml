@@ -4,6 +4,8 @@
 	</listeners>
 	<test name = "SauceTests">
 		<classes>
+			<class name = "tests.ValidLoginTest"/>
+			<class name = "tests.AddProductTest"/>
 			<class name = "tests.CheckoutTest"/>
 		</classes>
 	</test>
