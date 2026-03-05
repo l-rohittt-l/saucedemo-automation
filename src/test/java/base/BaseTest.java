@@ -44,7 +44,7 @@ public class BaseTest {
 	public void teardown() {
 		if(driver!=null) {
 			try {
-				Thread.sleep(10000);
+				Thread.sleep(1000);
 			} catch(Exception e) {
 				
 			}
